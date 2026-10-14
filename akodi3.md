@@ -1,11 +1,11 @@
-- **NetID:** [akodi3]
-- **Major:** [CS]
-- **Question that I chose from the memoization exercise:** [Ways to Reach the n'th Stair]
-- **Link to the question article:** [https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1]
+- **NetID:** akodi3
+- **Major:** CS
+- **Question that I chose from the memoization exercise:** Ways to Reach the n'th Stair
+- **Link to the question article:** https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
 - **My solution:**
 
-\```
 
+```
 int countWays(int n) {
 	// Base cases
 	if (n <= 1)
@@ -23,5 +23,4 @@ int countWays(int n) {
 	
 	return current;
 }
-
-\```
+```
